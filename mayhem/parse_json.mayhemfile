@@ -1,0 +1,6 @@
+project: parol
+target: parse-json
+cmds:
+    - cmd: /parse_json
+testsuite:
+    - file://examples/json_parser/json

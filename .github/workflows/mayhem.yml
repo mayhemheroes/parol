@@ -59,7 +59,7 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/parse.mayhemfile
+          - mayhem/parse_json.mayhemfile
 
     steps:
       - uses: actions/checkout@v3
